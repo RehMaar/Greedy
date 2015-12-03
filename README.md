@@ -1,0 +1,1 @@
+#Greed-like sed-game.
