@@ -7,7 +7,6 @@
 # If this solutions doesn't solve problems, report to the *developer*. 
 #
 
-
 function random_line() {
    var1=25
    line="$((RANDOM%5+1))"  
@@ -37,7 +36,7 @@ function generator() {
   echo -e "$field"
    while true
    do
-      read -n 1 ctrl
+      read -s -n 1 ctrl
       case "${ctrl}" in
          k|w) dr=w;;
          h|a) dr=a;;
